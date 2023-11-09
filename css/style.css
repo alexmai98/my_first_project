@@ -1,0 +1,352 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+a {
+   text-decoration: none;
+}
+
+body {
+    background-color: #EDE6DD
+}
+
+header {
+    padding: 40px 0;
+}
+
+.conteiner {
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu_navi {
+    display: flex;
+    list-style: none;
+}
+
+.navi_elements {
+    text-decoration: none;
+    color: #1E1928;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    font-family: Inter;
+}
+
+li {
+    margin-left: 40px;
+}
+
+header {
+
+}
+
+.ppl_conteiner {
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 115px;
+}
+
+.img_box {
+    max-width: 564px;
+    padding-top: 73px;
+}
+
+.img_box img {
+    display: block;
+    width: 100%;
+}
+
+.main_article {
+    max-width: 549px;
+}
+
+h1 {
+    color: #1E1928;
+
+    font-family: Roboto;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 58px;
+    margin-bottom: 24px;
+}
+
+.paragh_small {
+    margin-bottom: 4px;
+    color: rgba(30, 25, 40, 0.80);
+
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0.252px
+}
+
+.parath_main {
+    margin-bottom: 28px;
+    color: rgba(30, 25, 40, 0.80);
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0.252px;
+}
+
+.try_it {
+    margin-bottom: 24px;
+}
+
+.parath_main {
+
+}
+
+form {
+    border-radius: 9999px;
+    background-color: white;
+    padding: 8px 12px;
+    display: flex;
+    max-width: 448px;
+    justify-content: space-between;
+}
+
+form input {
+    border:none;
+    background-color: transparent;
+    padding: 10px 19px;
+    outline: none;
+}
+
+form button {
+    background-color: black;
+    border: none;
+    border-radius: 9999px;
+    color: #F4EFE9;
+    text-align: center;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    padding: 10px 32px;
+}
+
+.section_padding {
+    background-color: #FFD394;
+    background-image: url("../images/frame1.png");
+    background-position: bottom -240px left 0px;
+    background-repeat: no-repeat;
+    padding-bottom: 70px;
+
+}
+
+.absolute_block {
+    margin: auto;
+    max-width: 1200px;
+    background-color: #fff;
+    text-align: center;
+    padding: 80px 0 90px 0;
+    position: relative;
+    bottom:150px
+}
+
+.absolute_h2 {
+    color: #1E1928;
+    font-family: Roboto;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 42px;
+    margin-bottom: 11px;
+}
+
+.absolute_p {
+    color: rgba(30, 25, 40, 0.80);
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0.252px;
+    margin-bottom: 20px;
+    font-family: 'Inter', sans-serif;
+}
+
+.absolute_button {
+
+    padding: 10px 33px;
+    border-radius: 9999px;
+    border: 1px solid #1E1928;
+}
+
+.absolute_button a {
+    color: #1E1928;
+    text-align: center;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+.about_app_box p {
+    color: rgba(30, 25, 40, 0.80);
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.176px;
+    margin-bottom: 46px;
+    margin-left: 64px;
+}
+
+.about_app_box h3 {
+    color: #1E1928;
+    font-family: Inter;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 26px;
+    letter-spacing: 0.252px;
+    margin-bottom: 10px;
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    margin-left: 24px;
+
+}
+
+.about_app_box li {
+    list-style: none;
+}
+
+.about_app_box li:before {
+    display: inline-block;
+    content: "1";
+    padding: 7px 14px 7px 14px;
+    text-align: center;
+    background-color: black;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+
+
+.about_app_box li:nth-child(2):before {
+ content: "2";
+ padding: 7px 13px 7px 13px;
+}
+
+.about_app_box li:last-of-type:before {
+    content: "3";
+    padding: 7px 13px 7px 13px;
+    
+}
+
+.many_banners_section {
+background-color: #E3DEDA;
+text-align: center;
+padding: 144px 0;
+}
+
+.main_box_banners {
+text-align: center;
+margin-bottom: 80px;
+display: flex;
+justify-content:space-around;
+background-color: white;
+margin-bottom: 80px;
+background-color: #E3DEDA;
+}
+
+.banner_boxes {
+min-width: 144px;
+min-height: 160px;
+color: #1E1928;
+font-family: Inter;
+font-size: 12px;
+font-style: normal;
+font-weight: 700;
+line-height: 16px;
+background-color: #fff;
+border-radius: 8px
+}
+
+.banner_boxes img {
+    width: 88px;
+    margin-bottom: 12px;
+    margin-top: 12px;
+}
+
+.banners_section_button {
+    padding: 10px 33px;
+    border-radius: 9999px;
+    border: 1px solid #1E1928;
+    color: #1E1928;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+.many_banners_section h3{
+    margin-bottom: 80px;
+}
+
+.words_of_users {
+    background-color: #592141;
+    text-align: center;
+    padding-top: 144px;
+    padding-bottom: 184px;
+}
+
+.roger_speach {
+    margin-bottom:32px;
+    color: #F4EFE9;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 36px;
+}
+
+.words_of_users h3 {
+    margin-bottom: 26px;
+    color: #F4EFE9;
+text-align: center;
+font-family: Inter;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px;
+letter-spacing: 0.252px;
+}
+
+.words_of_users img {
+    width: 37px;
+    margin-bottom: 60px;
+}
+
+.about_roger{
+    color: #F4EFE9;
+    text-align: center;
+    font-family: Inter;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
