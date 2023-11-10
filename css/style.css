@@ -52,7 +52,7 @@ header {
     margin: auto;
     display: flex;
     justify-content: space-between;
-    padding-bottom: 115px;
+    padding-bottom: 140px;
 }
 
 .img_box {
@@ -147,17 +147,21 @@ form button {
     background-position: bottom -240px left 0px;
     background-repeat: no-repeat;
     padding-bottom: 70px;
+    padding-top: 260px;
+    position: relative;
 
 }
 
 .absolute_block {
     margin: auto;
     max-width: 1200px;
+    width: 100%;
     background-color: #fff;
     text-align: center;
     padding: 80px 0 90px 0;
-    position: relative;
-    bottom:150px
+    position: absolute;
+    left: calc(50% - 600px);
+    top: -175px;
 }
 
 .absolute_h2 {
@@ -183,7 +187,7 @@ form button {
 }
 
 .absolute_button {
-
+    text-decoration: none;
     padding: 10px 33px;
     border-radius: 9999px;
     border: 1px solid #1E1928;
@@ -258,7 +262,7 @@ form button {
 .many_banners_section {
 background-color: #E3DEDA;
 text-align: center;
-padding: 144px 0;
+padding: 144px 0 302px 0;
 }
 
 .main_box_banners {
@@ -306,17 +310,11 @@ border-radius: 8px
     margin-bottom: 80px;
 }
 
-.words_of_users {
-    background-color: #592141;
-    text-align: center;
-    padding-top: 144px;
-    padding-bottom: 184px;
-}
+
 
 .roger_speach {
     margin-bottom:32px;
     color: #F4EFE9;
-    text-align: center;
     font-family: Roboto;
     font-size: 30px;
     font-style: normal;
@@ -325,9 +323,8 @@ border-radius: 8px
 }
 
 .words_of_users h3 {
-    margin-bottom: 26px;
+    margin-bottom: 1px;
     color: #F4EFE9;
-text-align: center;
 font-family: Inter;
 font-size: 16px;
 font-style: normal;
@@ -336,17 +333,67 @@ line-height: 30px;
 letter-spacing: 0.252px;
 }
 
-.words_of_users img {
-    width: 37px;
-    margin-bottom: 60px;
+.words_of_users h3:after {
+    content: "“";
+    color: #F4EFE9;
+    font-family: Roboto;
+    font-size: 96px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 96px;
+    display:block;
+    margin-top: 26px;
 }
+
+.words_of_users {
+    background-color: #592141;
+    padding-top: 302px;
+    padding-bottom: 184px;
+    text-align: center;
+    position: relative;
+}
+
 
 .about_roger{
     color: #F4EFE9;
-    text-align: center;
     font-family: Inter;
     font-size: 15px;
     font-style: normal;
     font-weight: 400;
     line-height: 24px;
+ 
+}
+
+.absolute_block_two {
+    margin: auto;
+    max-width: 1200px;
+    background-color: #fff;
+    text-align: center;
+    padding: 80px 0 76px 0;
+    position: absolute;
+    top: -152px;
+    left: calc(50% - 600px);
+    width: 100%;
+}
+
+.absolute_two_h2 {
+    color: #1E1928;
+text-align: center;
+font-family: Roboto;
+font-size: 32px;
+font-style: normal;
+font-weight: 400;
+line-height: 42px;
+margin-bottom: 28px;
+}
+
+.absolute_two_p {
+    color: rgba(30, 25, 40, 0.80);
+    text-align: center;
+    font-family: Inter;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; /* 176.471% */
+    letter-spacing: 0.252px;
 }
