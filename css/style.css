@@ -10,7 +10,7 @@ a {
 }
 
 body {
-    background-color: #EDE6DD
+    background-color: #F4EFE9;
 }
 
 header {
@@ -394,6 +394,146 @@ margin-bottom: 28px;
     font-size: 17px;
     font-style: normal;
     font-weight: 400;
-    line-height: 30px; /* 176.471% */
+    line-height: 30px;
     letter-spacing: 0.252px;
+}
+
+.peace_of_mind{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    text-align: right;
+    margin-top: 80px;
+}
+
+.peace_of_mind h3 {
+    color: #1E1928;
+    font-family: 'Roboto', sans-serif;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 42px;
+    margin-bottom: 28px;
+}
+
+.peace_of_mind p {
+    color: rgba(30, 25, 40, 0.80);
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0.252px;
+    max-width: 591px;
+}
+
+.assits {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.assits h3{
+    color: #1E1928;
+    font-family: 'Roboto', sans-serif;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 42px;
+    margin-bottom: 28px;
+}
+
+.assits p {
+    color: rgba(30, 25, 40, 0.80);
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0.252px;
+    max-width: 591px;
+}
+
+.benefits {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    text-align: right;
+}
+
+.benefits h3 {
+    color: #1E1928;
+    font-family: 'Roboto', sans-serif;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 42px;
+    margin-bottom: 28px;
+}
+
+.benefits p {
+    color: rgba(30, 25, 40, 0.80);
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0.252px;
+    max-width: 591px;
+}
+
+.paperwork {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.paperwork h3 {
+    color: #1E1928;
+    font-family: 'Roboto', sans-serif;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 42px;
+    margin-bottom: 28px;
+}
+
+.paperwork p {
+    color: rgba(30, 25, 40, 0.80);
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0.252px;
+    max-width: 591px;
+}
+
+.grief {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    text-align: right;
+    padding-bottom: 94px;
+}
+
+.grief h3 {
+    color: #1E1928;
+    font-family: 'Roboto', sans-serif;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 42px;
+    margin-bottom: 28px;
+}
+
+.grief p {
+    color: rgba(30, 25, 40, 0.80);
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0.252px;
+    max-width: 591px;
 }
