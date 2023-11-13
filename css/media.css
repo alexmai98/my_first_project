@@ -36,6 +36,49 @@
         margin-bottom: 70px;
     }
 
+    header nav {
+        margin-right: 50px;
+    }
+
+    .roger_speach {
+        font-size: 25px;
+    }
+
+    .absolute_block, .absolute_block_two {
+        position: absolute;
+        top: 0px;
+        max-width: 1245px;
+        left: 0;
+    }
+
+    .absolute_block h2, .absolute_block_two h2{
+        font-size: 25px;
+    }
+
+    .absolute_block p, .absolute_block_two p{
+        font-size: 15px;
+    }
+
+    .about_app_instruction {
+        margin-top: 150px;
+    }
+
+    .about_app_h3 {
+        margin-top: 150px;
+    }
+
+    .words_of_users h3  {
+        margin-top: 100px;
+    }
+
+    header, .first_section {
+        margin-left: 50px;
+    }
+
+    .main_article h1 {
+        font-size: 30px;
+    }
+
 }
 
 @media screen and (max-width: 1000px) {
@@ -47,19 +90,191 @@
     }
     .about_app_box{
         margin: 0 auto;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
     }
     .about_app_box li{
         flex-direction: column;
         align-items: center;
-        margin-top: 38px;
+        margin-top: 15px;
+        margin-bottom: 25px;
     }
     .about_app_box li:before{
-        margin-bottom: 20px;
+        margin-bottom: 10px;
     }
     .about_app_box li h3 {
         text-align: center;
+        display: flex;
+    }
+
+    .about_app_h3 {
+        font-size: 35px;
+        margin-bottom: 55px;
+
+    }
+
+    .img_box {
+        display:none;
+    }
+
+    .first_section {
+        display: block;
+        margin: auto;
+        padding-bottom: 100px;
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+
+    .main_article {
+        display:block;
+        margin: auto;
+        padding-right: 15px;
+        padding-left: 15px;
+
+    }
+    .roger_speach {
+        font-size: 18px;
+    }
+
+    .main_article h1 {
+        text-align: center;
+    }
+
+    .about_app_box h3 {
+        margin-left: 0px;
+        margin-bottom: 65px;
+
+    }
+
+    .about_app_box p {
+        margin: 0 0 55px 0;
+    }
+
+}
+
+@media screen and (max-width: 625px) {
+    header{
+        position: relative;
+    }
+
+    header nav {
+        position: absolute;
+        right: 15px;
+    }
+
+    .menu_navi {
+        display: block;
+
+    }
+
+    .menu_navi li {
+        margin-bottom: 5px;
+    }
+
+    .absolute_block, .absolute_block_two {
+        padding: 20px 0 20px 0;
+
+    }
+    .absolute_block h2, .absolute_block_two h2 {
+        font-size: 20px;
+    }
+
+    .absolute_block p, .absolute_block_two p {
+        font-size: 13px;
+    }
+
+    .roger_speach {
+        font-size: 20px;
+    }
+
+    form button {
+
+        font-size: 9px;
+        padding: 9px 23px;
+    }
+
+    .main_article h1 {
+        font-size: 25px;
+    }
+
+    .main_article p {
+        font-size: 15px;
+        text-align: center;
+    }
+
+   .about_app_box p {
+       padding-right: 15px;
+       padding-left: 15px;
+   }
+
+    .peace_of_mind , .assits , .benefits , .paperwork , .grief {
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+}
+
+
+
+
+
+
+
+@media screen and (max-width: 430px) {
+    .banner_boxes img{
+        width: 68px;
+        margin-bottom: 9px;
+        margin-top: 9px;
+          }
+
+    .banner_boxes{
+        min-width: 120px;
+        min-height: 140px;
+    }
+
+    .many_banners_section h3 {
+        font-size: 15px;
     }
 
 
+    .peace_of_mind img, .assits img, .benefits img, .paperwork img, .grief img {
+        max-width: 150px;
+    }
+
+
+    .absolute_two_h2, .absolute_two_p, .absolute_block h2, .absolute_block p {
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+
+    .roger_speach {
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+
+    .words_of_users h3 {
+        margin-top: 150px;
+    }
+
+    form {
+
+        display: block;
+        text-align: center;
+    }
+
+    form button {
+        padding: 6px 16px;
+    }
+
+    nav {
+        display: none;
+    }
 
 }
+
+@media screen and (max-width: 341px) {
+    .words_of_users h3 {
+        margin-top: 200px;
+    }
+}
+
