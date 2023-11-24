@@ -43,8 +43,6 @@ header li {
     margin-left: 40px;
 }
 
-
-
 .ppl_conteiner {
     max-width: 1200px;
     margin: auto;
@@ -69,7 +67,6 @@ header li {
 
 h1 {
     color: #1E1928;
-
     font-family: Roboto;
     font-size: 48px;
     font-style: normal;
@@ -105,9 +102,6 @@ h1 {
     margin-bottom: 24px;
 }
 
-.parath_main {
-
-}
 
 form {
     border-radius: 9999px;
@@ -534,4 +528,37 @@ margin-bottom: 28px;
     line-height: 30px;
     letter-spacing: 0.252px;
     max-width: 591px;
+}
+
+.main_box_banners .banner_boxes {
+    display: inline-block;
+
+}
+
+.main_box_banners .banner_boxes img {
+    max-width: 88px;
+}
+
+.main_box_banners .owl-stage {
+    display: flex;
+    align-items: center;
+}
+
+
+
+.main_box_banners img {
+    max-width: 88px;
+    display: inline-block;
+    margin: 0 auto;
+    margin-bottom: 12px;
+    margin-top: 12px;
+}
+
+.main_box_banners .owl-stage {
+    display: flex;
+    align-items: center;
+}
+
+.main_box_banners .owl-stage .owl-item {
+    text-align: center;
 }
