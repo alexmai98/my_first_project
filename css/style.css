@@ -6,7 +6,7 @@
 }
 
 a {
-   text-decoration: none;
+    text-decoration: none;
 }
 
 body {
@@ -20,6 +20,10 @@ header {
 .conteiner {
     max-width: 1200px;
     margin: auto;
+
+}
+
+.section_padding .conteiner {
     display: flex;
     justify-content: space-between;
 }
@@ -113,7 +117,7 @@ form {
 }
 
 form input {
-    border:none;
+    border: none;
     background-color: transparent;
     padding: 10px 19px;
     outline: none;
@@ -241,43 +245,43 @@ form button {
 
 
 .about_app_box li:nth-child(2):before {
- content: "2";
- padding: 7px 13px 7px 13px;
+    content: "2";
+    padding: 7px 13px 7px 13px;
 }
 
 .about_app_box li:last-of-type:before {
     content: "3";
     padding: 7px 13px 7px 13px;
-    
+
 }
 
 .many_banners_section {
-background-color: #E3DEDA;
-text-align: center;
-padding: 144px 0 302px 0;
+    background-color: #E3DEDA;
+    text-align: center;
+    padding: 144px 0 302px 0;
 }
 
 .main_box_banners {
-text-align: center;
-margin-bottom: 80px;
-display: flex;
-justify-content:space-around;
-background-color: white;
-margin-bottom: 80px;
-background-color: #E3DEDA;
+    text-align: center;
+    margin-bottom: 80px;
+    display: flex;
+    justify-content: space-around;
+    background-color: white;
+    margin-bottom: 80px;
+    background-color: #E3DEDA;
 }
 
 .banner_boxes {
-min-width: 144px;
-min-height: 160px;
-color: #1E1928;
-font-family: Inter;
-font-size: 12px;
-font-style: normal;
-font-weight: 700;
-line-height: 16px;
-background-color: #fff;
-border-radius: 8px
+    min-width: 144px;
+    min-height: 160px;
+    color: #1E1928;
+    font-family: Inter;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 16px;
+    background-color: #fff;
+    border-radius: 8px
 }
 
 .banner_boxes img {
@@ -298,14 +302,13 @@ border-radius: 8px
     line-height: 20px;
 }
 
-.many_banners_section h3{
+.many_banners_section h3 {
     margin-bottom: 80px;
 }
 
 
-
 .roger_speach {
-    margin-bottom:32px;
+    margin-bottom: 32px;
     color: #F4EFE9;
     font-family: Roboto;
     font-size: 30px;
@@ -317,12 +320,12 @@ border-radius: 8px
 .words_of_users h3 {
     margin-bottom: 1px;
     color: #F4EFE9;
-font-family: Inter;
-font-size: 16px;
-font-style: normal;
-font-weight: 400;
-line-height: 30px;
-letter-spacing: 0.252px;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0.252px;
 }
 
 .words_of_users h3:after {
@@ -333,7 +336,7 @@ letter-spacing: 0.252px;
     font-style: normal;
     font-weight: 400;
     line-height: 96px;
-    display:block;
+    display: block;
     margin-top: 26px;
 }
 
@@ -346,14 +349,14 @@ letter-spacing: 0.252px;
 }
 
 
-.about_roger{
+.about_roger {
     color: #F4EFE9;
     font-family: Inter;
     font-size: 15px;
     font-style: normal;
     font-weight: 400;
     line-height: 24px;
- 
+
 }
 
 .absolute_block_two {
@@ -370,13 +373,13 @@ letter-spacing: 0.252px;
 
 .absolute_two_h2 {
     color: #1E1928;
-text-align: center;
-font-family: Roboto;
-font-size: 32px;
-font-style: normal;
-font-weight: 400;
-line-height: 42px;
-margin-bottom: 28px;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 42px;
+    margin-bottom: 28px;
 }
 
 .absolute_two_p {
@@ -390,8 +393,8 @@ margin-bottom: 28px;
     letter-spacing: 0.252px;
 }
 
-.peace_of_mind{
-    display:flex;
+.peace_of_mind {
+    display: flex;
     justify-content: center;
     align-items: center;
     text-align: right;
@@ -420,12 +423,12 @@ margin-bottom: 28px;
 }
 
 .assits {
-    display:flex;
+    display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.assits h3{
+.assits h3 {
     color: #1E1928;
     font-family: 'Roboto', sans-serif;
     font-size: 32px;
@@ -447,7 +450,7 @@ margin-bottom: 28px;
 }
 
 .benefits {
-    display:flex;
+    display: flex;
     justify-content: center;
     align-items: center;
     text-align: right;
@@ -475,7 +478,7 @@ margin-bottom: 28px;
 }
 
 .paperwork {
-    display:flex;
+    display: flex;
     justify-content: center;
     align-items: center;
 }
@@ -502,7 +505,7 @@ margin-bottom: 28px;
 }
 
 .grief {
-    display:flex;
+    display: flex;
     justify-content: center;
     align-items: center;
     text-align: right;
@@ -545,7 +548,6 @@ margin-bottom: 28px;
 }
 
 
-
 .main_box_banners img {
     max-width: 88px;
     display: inline-block;
@@ -561,4 +563,77 @@ margin-bottom: 28px;
 
 .main_box_banners .owl-stage .owl-item {
     text-align: center;
+}
+
+.faq {
+    padding: 100px;
+    background-color: #ffffff;
+
+}
+
+.faq h4 {
+    color: black;
+    text-align: center;
+    font-size: 65px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    text-align: center;
+
+}
+
+.faq .conteiner {
+    justify-content: normal;
+}
+
+.faq .ui-accordion .ui-accordion-header {
+    background-color: white;
+    border: solid 2px black;
+    border-radius: 20px ;
+    padding: 15px;
+}
+
+.faq .ui-accordion .ui-accordion-header.ui-state-active {
+    color: black;
+    border-top: solid black 2px;
+    border-left: solid black 2px;
+    border-right: solid black 2px;
+    border-bottom: none;
+    border-radius: 20px 20px 0px 0px;
+    background-color: #FFD394;
+}
+
+.faq .ui-accordion .ui-accordion-content  {
+    background-color: #FFD394;
+}
+
+.faq .ui-accordion .ui-accordion-content {
+    border-top: none;
+    border-left: solid black 2px;
+    border-right: solid black 2px;
+    border-bottom: solid black 2px;
+    border-radius: 0px 0px 20px 20px;
+}
+
+.faq .ui-accordion  .ui-accordion-header-icon {
+    position: absolute;
+    right: 15px;
+}
+
+@keyframes shake {
+    20%{
+        transform: rotate(0deg);
+    }
+
+    60%{
+        transform: rotate(60deg);
+        transform: scale(2);
+    }
+
+    90% {
+    transform:rotate(0deg);
+}
+}
+
+header img {
+    animation: shake infinite 3s;
 }
